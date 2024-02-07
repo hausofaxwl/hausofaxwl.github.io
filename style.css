@@ -4,14 +4,15 @@
 
 
 body {
-  Background: black;
+    Background: black;
     color: yellow;
-font-family: 'LED Display7', sans-serif;
-
+    font-family: 'LED Display7', sans-serif;
+    height: 100vh;
     font-size: 100px;
     margin: 0;
-text-transform: uppercase;
-line-height: 0.8em;
+    overflow: clip;
+    text-transform: uppercase;
+    line-height: 0.8em;
 }
 
 Img {
