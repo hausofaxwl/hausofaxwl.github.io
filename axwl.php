@@ -1,8 +1,9 @@
 
+
 <?php
 
-// Discord Bot Token
-$token = 'MTIzMDAzMzE2MzUyNzY1NTQ1NA.Gj5GGx.lAURfrqkV7CgkAr1xR_P6P4-q0Vn-LzgsbtW_U';
+// Get Discord Bot Token from environment variable
+$token = $_ENV['MTIzMDAzMzE2MzUyNzY1NTQ1NA.Gj5GGx.lAURfrqkV7CgkAr1xR_P6P4-q0Vn-LzgsbtW_U'];
 
 // Discord Server ID
 $server_id = '1198476380376150097';
@@ -45,3 +46,4 @@ if ($data && isset($data['events'])) {
 } else {
     echo "Failed to fetch events.";
 }
+?>
