@@ -3,7 +3,7 @@
 <?php
 
 // Get Discord Bot Token from environment variable
-$token = $_ENV['MTIzMDAzMzE2MzUyNzY1NTQ1NA.Gj5GGx.lAURfrqkV7CgkAr1xR_P6P4-q0Vn-LzgsbtW_U'];
+
 
 // Discord Server ID
 $server_id = '1198476380376150097';
@@ -13,7 +13,7 @@ $url = "https://discord.com/api/v9/guilds/$server_id/events";
 
 // Headers
 $headers = [
-    'Authorization: Bot ' . $token,
+    'Authorization: Bot ' . "MTIzMDAzMzE2MzUyNzY1NTQ1NA.Gj5GGx.lAURfrqkV7CgkAr1xR_P6P4-q0Vn-LzgsbtW_U",
 ];
 
 // Initialize cURL
